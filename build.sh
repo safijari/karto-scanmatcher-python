@@ -40,4 +40,3 @@ for file in ./*
 do
     /opt/python/cp38-cp38/bin/auditwheel -v repair --plat manylinux_2_28_x86_64 $file
 done
-manylinux_2_5_x86_64
